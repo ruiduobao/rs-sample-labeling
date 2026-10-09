@@ -1,0 +1,44 @@
+{
+  "name": "rs-sample-labeling",
+  "version": "1.0.0",
+  "description": "Verify remote-sensing sample points with high-res imagery (Esri/Google) + Sentinel-2 time series, and label detailed land-cover classes (paddy rice, maize, soybean, wheat, cotton, tea, greenhouse...), with blind review, double-pass audit and QC reports. 中文图文手册见 README.zh-CN.md.",
+  "keywords": [
+    "remote-sensing",
+    "sample-labeling",
+    "land-cover",
+    "sentinel-2",
+    "gee",
+    "gis",
+    "phenology",
+    "crop",
+    "skill"
+  ],
+  "license": "MIT",
+  "bin": {
+    "rs-sample-labeling": "./bin/rs-sample-labeling.js"
+  },
+  "files": [
+    "SKILL.md",
+    "README.zh-CN.md",
+    ".skill.json",
+    "scripts/",
+    "docs/",
+    "assets/fig1_pipeline.png",
+    "assets/fig2_chip_anatomy.png",
+    "assets/fig3_pheno_rice_maize_soybean.png",
+    "assets/fig4_qc_protocol.png",
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruiduobao/rs-sample-labeling.git"
+  },
+  "homepage": "https://github.com/ruiduobao/rs-sample-labeling",
+  "author": "",
+  "scripts": {
+    "postinstall": "node scripts/install.cjs install || true"
+  }
+}
