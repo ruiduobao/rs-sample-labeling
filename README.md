@@ -1,5 +1,7 @@
 # rs-sample-labeling
 
+[![skills.sh](https://skills.sh/b/ruiduobao/rs-sample-labeling)](https://skills.sh/ruiduobao/rs-sample-labeling)
+
 > **中文**：完整中文图文手册请见 [`README.zh-CN.md`](README.zh-CN.md)（含流程图、切片解剖、三作物物候实测对照、质控协议图）。
 > **Chinese users**: the full illustrated manual is in [`README.zh-CN.md`](README.zh-CN.md).
 
